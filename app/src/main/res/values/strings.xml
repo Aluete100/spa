@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Simulador de Presencia en Ausencia</string>
+    <string name="title_activity_wifi_connect">WifiConnectActivity</string>
+
+    <string name="wifiConnectHello">¡¡Hola!!</string>
+    <string name="wifiConnectIntruc1">Antes de que continuemos, configuremos tu dispositivo</string>
+    <string name="wifiConnectIntruc2">Conectate a tu wifi y estamos listos</string>
+
+    <string name="control_text">Seleccione lo que desea controlar</string>
+    <string name="control_room">Habitaciones</string>
+    <string name="control_profile">Perfiles</string>
+    <string name="control_toolbartext">Controlar</string>
+
+</resources>
