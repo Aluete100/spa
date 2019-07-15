@@ -1,6 +1,5 @@
-package com.alansito.simuladordepresenciaenausencia
+package com.alansito.simuladordepresenciaenausencia.modules
 
-import android.app.Activity
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
@@ -9,18 +8,12 @@ import android.net.wifi.ScanResult
 import android.net.wifi.WifiManager
 import android.os.Bundle
 import android.view.View
-import android.widget.Adapter
 import android.widget.ArrayAdapter
 import android.widget.Toast
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity;
 
-import kotlinx.android.synthetic.main.activity_wifi_connect.*
 import kotlinx.android.synthetic.main.content_wifi_connect.*
-import android.net.wifi.WifiConfiguration
-import android.util.Log
-import androidx.core.content.ContextCompat.getSystemService
-
+import com.alansito.simuladordepresenciaenausencia.R
 
 
 class WifiConnectActivity : AppCompatActivity() {

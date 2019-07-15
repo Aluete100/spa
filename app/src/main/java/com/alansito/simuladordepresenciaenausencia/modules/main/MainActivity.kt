@@ -1,10 +1,13 @@
-package com.alansito.simuladordepresenciaenausencia
+package com.alansito.simuladordepresenciaenausencia.modules
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.widget.Toolbar
+import com.alansito.simuladordepresenciaenausencia.R
 import com.rbddevs.splashy.Splashy
-import kotlinx.android.synthetic.main.activity_wifi_connect.*
+import kotlinx.android.synthetic.main.content_wifi_connect.*
+import kotlinx.android.synthetic.main.control_selection.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -12,13 +15,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.control_selection)
 
-        setSupportActionBar(toolbar)
-        supportActionBar?.title = getString(R.string.control_toolbartext)
+        setupActionBar()
         setSplashy()
+
+        setupButtons()
+
 
     }
 
-    fun setSplashy() {
+    private fun setSplashy() {
         Splashy(this)
             .setLogo(R.drawable.splash)
             .setTitleColor(R.color.black)
@@ -35,4 +40,17 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
+
+    private fun setupActionBar(){
+        setSupportActionBar(myToolbar as Toolbar)
+        supportActionBar?.title = getString(R.string.control_toolbartext)
+    }
+
+    private fun setupButtons() {
+
+        imgHabitaciones.setOnClickListener{
+            startActivity(Intent(this, RoomSelectionActivity::class.java))
+        }
+    }
+
 }
