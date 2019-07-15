@@ -5,6 +5,6 @@
         android:layout_height="wrap_content"
         android:background="@drawable/toolbar_grey_color"
         android:elevation="4dp"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
 
 </androidx.appcompat.widget.Toolbar>

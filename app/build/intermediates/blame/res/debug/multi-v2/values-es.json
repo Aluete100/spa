@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
+            "outputFile": "A:\\ORT\\Terciario\\Creatividad\\Android\\spa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
             "map": [
                 {
-                    "source": "/Users/alanantar/.gradle/caches/transforms-2/files-2.1/0797a2a8babd595899fb0eb2f58d7dcf/res/values-es/values-es.xml",
+                    "source": "C:\\Users\\usuario\\.gradle\\caches\\transforms-2\\files-2.1\\bdf38984665cafccbe33c26d25bde462\\res\\values-es\\values-es.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/alanantar/.gradle/caches/transforms-2/files-2.1/6ebb1b316c2b1a538e03d6beab0f7a8f/res/values-es/values-es.xml",
+                    "source": "C:\\Users\\usuario\\.gradle\\caches\\transforms-2\\files-2.1\\0933d00e13a47f004682975e37c01250\\res\\values-es\\values-es.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

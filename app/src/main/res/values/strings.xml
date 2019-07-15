@@ -9,6 +9,24 @@
     <string name="control_text">Seleccione lo que desea controlar</string>
     <string name="control_room">Habitaciones</string>
     <string name="control_profile">Perfiles</string>
+
     <string name="control_toolbartext">Controlar</string>
+    <string name="control_toolbartext2">Zonas de la casa</string>
+
+    <string name="control_room1">Habitacion 1</string>
+    <string name="control_room2">Habitacion 2</string>
+    <string name="control_room3">Habitacion 3</string>
+    <string name="control_living">Living</string>
+    <string name="control_kitchen">Cocina</string>
+
+    <string name="room_light1">Velador</string>
+    <string name="room_light2">Luz general</string>
+    <string name="room_bath">Luz baño</string>
+    <string name="room_tv">TV</string>
+    <string name="room_radio">Radio</string>
+
+    <string name="room_on">Encender</string>
+    <string name="room_off">Apagar</string>
+
 
 </resources>

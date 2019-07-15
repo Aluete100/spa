@@ -1,4 +1,4 @@
-package com.alansito.simuladordepresenciaenausencia.modules
+package com.alansito.simuladordepresenciaenausencia.modules.wifi
 
 import android.content.BroadcastReceiver
 import android.content.Context

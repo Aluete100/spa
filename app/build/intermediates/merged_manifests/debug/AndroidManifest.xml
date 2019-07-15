@@ -12,6 +12,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -22,25 +23,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme.NoActionBar" >
-        <activity
-            android:name="com.alansito.simuladordepresenciaenausencia.WifiConnectActivity"
-            android:label="@string/title_activity_wifi_connect"
-            android:theme="@style/AppTheme.NoActionBar" >
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.alansito.simuladordepresenciaenausencia.modules.room.RoomLightActivity" >
         </activity>
-        <activity android:name="com.alansito.simuladordepresenciaenausencia.MainActivity" >
+        <activity android:name="com.alansito.simuladordepresenciaenausencia.modules.room.RoomActivity" >
+        </activity>
+        <activity
+            android:name="com.alansito.simuladordepresenciaenausencia.modules.wifi.WifiConnectActivity"
+            android:label="@string/title_activity_wifi_connect" >
+        </activity>
+        <activity android:name="com.alansito.simuladordepresenciaenausencia.modules.main.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.alansito.simuladordepresenciaenausencia.modules.room.RoomSelectionActivity" >
+        </activity>
         <activity android:name="com.rbddevs.splashy.SplashyActivity" />
-
-        <provider
-            android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.alansito.simuladordepresenciaenausencia.com.android.tools.ir.server.InstantRunContentProvider"
-            android:multiprocess="true" />
     </application>
 
 </manifest>
