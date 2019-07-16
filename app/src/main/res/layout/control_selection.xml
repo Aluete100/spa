@@ -49,7 +49,8 @@
                         android:layout_width="96dp"
                         android:layout_height="96dp"
                         android:src="@drawable/ic_bed"
-                        android:scaleType="centerCrop"/>
+                        android:background="@drawable/circle_background"
+                />
                 <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -74,7 +75,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="@string/control_profile"
+                        android:text="@string/profile"
                         android:layout_gravity="center"/>
             </LinearLayout>
         </LinearLayout>

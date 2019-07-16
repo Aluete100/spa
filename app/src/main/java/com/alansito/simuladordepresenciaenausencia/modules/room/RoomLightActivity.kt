@@ -2,7 +2,6 @@ package com.alansito.simuladordepresenciaenausencia.modules.room
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.widget.Toolbar
 import com.alansito.simuladordepresenciaenausencia.R
@@ -10,14 +9,14 @@ import kotlinx.android.synthetic.main.activity_room_light.*
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import android.util.Log
-import com.alansito.simuladordepresenciaenausencia.modules.utils.SPAEndpoints
+import com.alansito.simuladordepresenciaenausencia.modules.utils.Common.Companion.BASE_URL
+import com.alansito.simuladordepresenciaenausencia.modules.utils.service.SPAEndpoints
 import retrofit2.Call
 import retrofit2.Callback
+import retrofit2.Response
 
 
 class RoomLightActivity : AppCompatActivity() {
-
-    val BASE_URL = "http://192.168.1.184"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,11 +27,6 @@ class RoomLightActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         setupButtons()
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.house_menu, menu)
-        return true
     }
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
@@ -57,17 +51,21 @@ class RoomLightActivity : AppCompatActivity() {
             .build()
 
         val service = retrofit.create(SPAEndpoints::class.java)
-        val call = service.trunLight()
+        val turnLight = service.turnLight()
 
-        call.enqueue(object : Callback<Void> {
-            override fun onResponse(call: Call<Void>, response: retrofit2.Response<Void>) {
+        turnLight.enqueue(object: Callback<String>{
+            override fun onResponse(call: Call<String>, response: Response<String>) {
                 if (response.code() == 200){
-                    Log.d("Retrofit", "Prendo")
+                    if  (response.body() == "1"){
+                        txtLightState.text = getString(R.string.room_off)
+                    }else{
+                        txtLightState.text = getString(R.string.room_on)
+                    }
                 }
             }
 
-            override fun onFailure(call: Call<Void>, t: Throwable) {
-                Log.d("Retrofit", "Error" + t)
+            override fun onFailure(call: Call<String>, t: Throwable) {
+                Log.d("Retrofit", "Error -> $t")
             }
         })
     }

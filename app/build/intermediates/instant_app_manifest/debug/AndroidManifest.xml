@@ -26,6 +26,12 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.alansito.simuladordepresenciaenausencia.modules.profile.ProfileSelectedActivity" >
+        </activity>
+        <activity android:name="com.alansito.simuladordepresenciaenausencia.modules.profile.ProfileSelectionActivity" >
+        </activity>
+        <activity android:name="com.alansito.simuladordepresenciaenausencia.modules.room.RoomRadioActivity" >
+        </activity>
         <activity android:name="com.alansito.simuladordepresenciaenausencia.modules.room.RoomLightActivity" >
         </activity>
         <activity android:name="com.alansito.simuladordepresenciaenausencia.modules.room.RoomActivity" >

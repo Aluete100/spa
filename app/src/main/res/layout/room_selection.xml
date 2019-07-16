@@ -57,8 +57,7 @@
                             android:layout_height="56dp"
                             android:src="@drawable/ic_bed"
                             android:layerType="software"
-                            android:clickable="true"
-                            android:focusable="auto"/>
+                            android:background="@drawable/circle_background_small"/>
                     <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -80,8 +79,7 @@
                             android:layout_height="56dp"
                             android:src="@drawable/ic_bed"
                             android:layerType="software"
-                            android:clickable="true"
-                            android:focusable="auto"/>
+                            android:background="@drawable/circle_background_small"/>
 
                     <TextView
                             android:layout_width="wrap_content"
@@ -101,7 +99,8 @@
                             android:layout_width="56dp"
                             android:layout_height="56dp"
                             android:src="@drawable/ic_bed"
-                            android:layerType="software"/>
+                            android:layerType="software"
+                            android:background="@drawable/circle_background_small"/>
 
                     <TextView
                             android:layout_width="wrap_content"
@@ -129,7 +128,8 @@
                             android:layout_width="56dp"
                             android:layout_height="56dp"
                             android:src="@drawable/ic_living_room"
-                            android:layerType="software"/>
+                            android:layerType="software"
+                            android:background="@drawable/circle_background_small"/>
                     <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -149,7 +149,8 @@
                             android:layout_width="56dp"
                             android:layout_height="56dp"
                             android:src="@drawable/ic_kitchen"
-                            android:layerType="software"/>
+                            android:layerType="software"
+                            android:background="@drawable/circle_background_small"/>
 
                     <TextView
                             android:layout_width="wrap_content"

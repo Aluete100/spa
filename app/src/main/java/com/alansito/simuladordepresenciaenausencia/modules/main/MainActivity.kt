@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.widget.Toolbar
 import com.alansito.simuladordepresenciaenausencia.R
+import com.alansito.simuladordepresenciaenausencia.modules.profile.ProfileSelectionActivity
 import com.alansito.simuladordepresenciaenausencia.modules.wifi.WifiConnectActivity
 import com.alansito.simuladordepresenciaenausencia.modules.room.RoomSelectionActivity
 import com.rbddevs.splashy.Splashy
@@ -16,12 +17,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.control_selection)
 
-        setupActionBar()
         setSplashy()
+        setupActionBar()
 
         setupButtons()
-
-
     }
 
     private fun setSplashy() {
@@ -51,6 +50,10 @@ class MainActivity : AppCompatActivity() {
 
         imgHabitaciones.setOnClickListener{
             startActivity(Intent(this, RoomSelectionActivity::class.java))
+        }
+
+        imgPerfiles.setOnClickListener {
+            startActivity(Intent(this, ProfileSelectionActivity::class.java))
         }
     }
 

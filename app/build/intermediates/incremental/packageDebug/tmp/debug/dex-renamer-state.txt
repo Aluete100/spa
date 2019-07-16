@@ -1,4 +1,4 @@
-#Sun Jul 14 22:36:48 ART 2019
+#Mon Jul 15 21:50:44 ART 2019
 base.0=A\:\\ORT\\Terciario\\Creatividad\\Android\\spa\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 path.0=classes.dex
 renamed.0=classes.dex

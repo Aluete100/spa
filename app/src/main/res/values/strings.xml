@@ -8,7 +8,6 @@
 
     <string name="control_text">Seleccione lo que desea controlar</string>
     <string name="control_room">Habitaciones</string>
-    <string name="control_profile">Perfiles</string>
 
     <string name="control_toolbartext">Controlar</string>
     <string name="control_toolbartext2">Zonas de la casa</string>
@@ -24,9 +23,16 @@
     <string name="room_bath">Luz baño</string>
     <string name="room_tv">TV</string>
     <string name="room_radio">Radio</string>
-
     <string name="room_on">Encender</string>
     <string name="room_off">Apagar</string>
+
+
+    <string name="profile">Perfiles</string>
+    <string name="profile1">Fin de semana</string>
+    <string name="profile2">Luces de afuera</string>
+    <string name="profile_more">Agregar perfil</string>
+    <string name="profile_toolbar">Fin de semana</string>
+    <string name="profile_on">Activar perfil</string>
 
 
 </resources>

@@ -10,7 +10,6 @@ import androidx.appcompat.widget.Toolbar
 import com.alansito.simuladordepresenciaenausencia.R
 import kotlinx.android.synthetic.main.activity_room.*
 import kotlinx.android.synthetic.main.activity_room.myToolbar
-import kotlinx.android.synthetic.main.room_selection.*
 
 class RoomActivity : AppCompatActivity() {
 
@@ -20,14 +19,14 @@ class RoomActivity : AppCompatActivity() {
 
         setSupportActionBar(myToolbar as Toolbar)
 
-        supportActionBar?.title = getString(R.string.control_toolbartext2)
+        supportActionBar?.title = getString(R.string.control_room1)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         setupButtons()
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.room_menu, menu)
+        menuInflater.inflate(R.menu.edit_menu, menu)
         return true
     }
 
@@ -45,6 +44,10 @@ class RoomActivity : AppCompatActivity() {
     private fun setupButtons(){
         imgLamp1.setOnClickListener{
             startActivity(Intent(this, RoomLightActivity::class.java))
+        }
+
+        imgRadio.setOnClickListener{
+            startActivity(Intent(this, RoomRadioActivity::class.java))
         }
     }
 

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-39:12
+ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f65e870ba040b1e01313d450091980a9\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\bdf38984665cafccbe33c26d25bde462\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f5967d02b0476634b73c3cde5c981383\AndroidManifest.xml:2:1-11:12
@@ -37,20 +37,20 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\usuario\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\6626a0de8a5c079b9a230a3b47c86fdd\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\8952cd23a95413c8bbf9ee5dbbe100ee\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\003e03b0051845abc2299e38a7707993\AndroidManifest.xml:17:1-22:12
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:3:11-64
 		INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
 		INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-39:12
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-39:12
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:11-69
@@ -71,11 +71,11 @@ ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest
 	android:name
 		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:8:22-73
 uses-permission#android.permission.INTERNET
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:9:5-67
+ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:9:5-66
 	android:name
 		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:9:22-64
 application
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:12:5-37:19
+ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:11:5-42:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f65e870ba040b1e01313d450091980a9\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f65e870ba040b1e01313d450091980a9\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f5967d02b0476634b73c3cde5c981383\AndroidManifest.xml:9:5-20
@@ -91,51 +91,63 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\us
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\0933d00e13a47f004682975e37c01250\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:18:13-39
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:16:13-39
 	android:label
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:16:13-45
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:14:13-45
 	android:roundIcon
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:17:13-58
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:15:13-58
 	android:icon
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:15:13-47
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:13:13-47
 	android:allowBackup
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:14:13-39
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:12:13-39
 	android:theme
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:19:13-44
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:17:13-44
 	android:usesCleartextTraffic
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:13:13-48
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:18:13-48
+activity#com.alansito.simuladordepresenciaenausencia.modules.profile.ProfileSelectedActivity
+ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:19:9-20:20
+	android:name
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:19:19-74
+activity#com.alansito.simuladordepresenciaenausencia.modules.profile.ProfileSelectionActivity
+ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:21:9-22:20
+	android:name
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:21:19-75
+activity#com.alansito.simuladordepresenciaenausencia.modules.room.RoomRadioActivity
+ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:23:9-24:20
+	android:name
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:23:19-65
 activity#com.alansito.simuladordepresenciaenausencia.modules.room.RoomLightActivity
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:20:9-21:20
+ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:25:9-26:20
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:20:19-65
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:25:19-65
 activity#com.alansito.simuladordepresenciaenausencia.modules.room.RoomActivity
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:22:9-23:20
+ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:27:9-28:20
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:22:19-60
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:27:19-60
 activity#com.alansito.simuladordepresenciaenausencia.modules.wifi.WifiConnectActivity
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:24:9-27:20
+ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:29:9-32:20
 	android:label
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:26:17-68
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:31:17-68
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:25:17-65
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:30:17-65
 activity#com.alansito.simuladordepresenciaenausencia.modules.main.MainActivity
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:28:9-34:20
+ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:33:9-39:20
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:28:19-60
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:33:19-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:34:13-38:29
 action#android.intent.action.MAIN
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:30:17-68
+ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:35:17-68
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:32:17-76
+ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:37:17-76
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:37:27-74
 activity#com.alansito.simuladordepresenciaenausencia.modules.room.RoomSelectionActivity
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:35:9-36:20
+ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:40:9-41:20
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:35:19-69
+		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:40:19-69
 uses-sdk
 INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
