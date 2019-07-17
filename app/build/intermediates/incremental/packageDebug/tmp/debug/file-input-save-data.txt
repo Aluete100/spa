@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Sun Jul 14 19:05:09 ART 2019
-0.baseType=DIRECTORY
-0.base=A\:\\ORT\\Terciario\\Creatividad\\Android\\spa\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
-0.path=classes.dex
-0.set=DEX
-count=1

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffff">
+
+
+    <include
+            android:id="@+id/myToolbar"
+            layout="@layout/toolbar"
+    />
+    
+    <androidx.core.widget.NestedScrollView
+            android:layout_below="@id/myToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+        <ImageView
+                android:id="@+id/imgHouse"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/ic_plus"
+                android:background="@drawable/circle_background_small2"/>
+
+        <EditText
+                android:id="@+id/txtNameRoom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_textfield"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginRight="68dp"
+                android:hint="Nombre"
+                android:textSize="20sp"
+                android:inputType="textPersonName"
+                android:fontFamily="@font/poppins_medium"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>
+
+        <org.angmarch.views.NiceSpinner
+                android:id="@+id/spinnerType"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginRight="68dp"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="20sp"
+                android:hint="Tipo"
+                android:backgroundTint="@color/textview_back">
+        </org.angmarch.views.NiceSpinner>
+
+        <org.angmarch.views.NiceSpinner
+                android:id="@+id/spinnerTypeDevice"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginRight="68dp"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="20dp"
+                android:hint="Tipo de dispositivo"
+                android:backgroundTint="@color/textview_back">
+        </org.angmarch.views.NiceSpinner>
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="50dp">
+
+                        <LinearLayout
+                                android:id="@+id/layLight1"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center">
+
+                            <ImageView
+                                    android:id="@+id/imgHabitacion1"
+                                    android:layout_width="56dp"
+                                    android:layout_height="56dp"
+                                    android:src="@drawable/ic_idea"
+                                    android:layerType="software"
+                                    android:background="@drawable/circle_background_small"/>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/control_room_add_lamp1"
+                                    android:textSize="10sp"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/poppins_medium"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:id="@+id/layLight2"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center">
+
+                            <ImageView
+                                    android:id="@+id/imgHabitacion2"
+                                    android:layout_width="56dp"
+                                    android:layout_height="56dp"
+                                    android:src="@drawable/ic_idea"
+                                    android:layerType="software"
+                                    android:background="@drawable/circle_background_small"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/control_room_add_lamp2"
+                                    android:textSize="10sp"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/poppins_medium"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:id="@+id/layLight3"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="center">
+                            <ImageView
+                                    android:id="@+id/imgHabitacion3"
+                                    android:layout_width="56dp"
+                                    android:layout_height="56dp"
+                                    android:src="@drawable/ic_idea"
+                                    android:layerType="software"
+                                    android:background="@drawable/circle_background_small"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="@string/control_room_add_lamp3"
+                                    android:textSize="10sp"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/poppins_medium"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+        <com.github.nikartm.button.FitButton
+                android:id="@+id/btnSave"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_margin="60dp"
+                android:enabled="true"
+                android:gravity="center_vertical|center_horizontal"
+                app:fb_fontFamilyRes="@font/poppins_medium"
+                app:fb_cornerRadius="2dp"
+                app:fb_shape="rectangle"
+                app:fb_rippleColor="#FBE9E7"
+                app:fb_iconWidth="28dp"
+                app:fb_textColor="#FFF"
+                app:fb_text="@string/control_room_add_save"
+                app:fb_backgroundColor="#38EA03"/>
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
