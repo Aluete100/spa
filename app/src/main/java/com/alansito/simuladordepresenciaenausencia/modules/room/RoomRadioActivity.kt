@@ -6,8 +6,8 @@ import android.util.Log
 import android.view.MenuItem
 import androidx.appcompat.widget.Toolbar
 import com.alansito.simuladordepresenciaenausencia.R
-import com.alansito.simuladordepresenciaenausencia.modules.utils.Common.Companion.BASE_URL
-import com.alansito.simuladordepresenciaenausencia.modules.utils.service.SPAEndpoints
+import com.alansito.simuladordepresenciaenausencia.utils.Common.Companion.BASE_URL
+import com.alansito.simuladordepresenciaenausencia.utils.service.SPAEndpoints
 import kotlinx.android.synthetic.main.activity_room_radio.*
 import retrofit2.Call
 import retrofit2.Callback

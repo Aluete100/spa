@@ -3,7 +3,8 @@
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:background="#ffff">
 
 
     <include
@@ -11,156 +12,199 @@
         layout="@layout/toolbar"
     />
 
-    <TextView
-            android:id="@+id/txtControl"
+    <ImageView
+            android:id="@+id/imgHouse"
             android:layout_below="@+id/myToolbar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_house"
+            android:layout_centerInParent="true"/>
+
+    <TextView
+            android:id="@+id/txtHouse"
+            android:layout_below="@+id/imgHouse"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:layout_margin="30dp"
-            android:text="@string/control_text"
-            android:textSize="30sp"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:typeface="serif"/>
+            android:layout_marginTop="20dp"
+            android:text="@string/control_house"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_centerInParent="true"/>
 
     <RelativeLayout
-            android:layout_below="@+id/txtControl"
+            android:layout_below="@+id/txtHouse"
             android:layout_marginTop="50dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/cards_border"
             android:gravity="center_horizontal">
 
-      <LinearLayout
+        <androidx.core.widget.NestedScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center_horizontal">
-
-            <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="50dp">
+                android:layout_height="match_parent">
+                    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal">
 
                 <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_marginRight="40dp"
-                        android:gravity="center">
+                        android:orientation="horizontal"
+                        android:layout_marginTop="50dp">
 
-                    <ImageView
-                            android:id="@+id/imgHabitacion1"
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            android:src="@drawable/ic_bed"
-                            android:layerType="software"
-                            android:background="@drawable/circle_background_small"/>
-                    <TextView
+                    <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="@string/control_room1"
-                            android:layout_gravity="center"/>
+                            android:orientation="vertical"
+                            android:layout_marginRight="20dp"
+                            android:gravity="center">
+
+                        <ImageView
+                                android:id="@+id/imgHabitacion1"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                android:src="@drawable/ic_bed"
+                                android:layerType="software"
+                                android:background="@drawable/circle_background_small"/>
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/control_room1"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/poppins_medium"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginRight="20dp"
+                            android:gravity="center">
+
+                        <ImageView
+                                android:id="@+id/imgHabitacion2"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                android:src="@drawable/ic_bed"
+                                android:layerType="software"
+                                android:background="@drawable/circle_background_small"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/control_room2"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/poppins_medium"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center">
+                        <ImageView
+                                android:id="@+id/imgHabitacion3"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                android:src="@drawable/ic_bed"
+                                android:layerType="software"
+                                android:background="@drawable/circle_background_small"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/control_room3"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/poppins_medium"/>
+                    </LinearLayout>
                 </LinearLayout>
-
                 <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_marginRight="40dp"
-                        android:gravity="center">
+                        android:orientation="horizontal"
+                        android:layout_marginTop="50dp">
 
-                    <ImageView
-                            android:id="@+id/imgHabitacion2"
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            android:src="@drawable/ic_bed"
-                            android:layerType="software"
-                            android:background="@drawable/circle_background_small"/>
-
-                    <TextView
+                    <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="@string/control_room2"
-                            android:layout_gravity="center"/>
-                </LinearLayout>
+                            android:orientation="vertical"
+                            android:layout_marginRight="40dp"
+                            android:gravity="center">
 
-                <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:gravity="center">
-                    <ImageView
-                            android:id="@+id/imgHabitacion3"
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            android:src="@drawable/ic_bed"
-                            android:layerType="software"
-                            android:background="@drawable/circle_background_small"/>
+                        <ImageView
+                                android:id="@+id/imgHabitacion4"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                android:src="@drawable/ic_living_room"
+                                android:layerType="software"
+                                android:background="@drawable/circle_background_small"/>
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/control_living"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/poppins_medium"/>
+                    </LinearLayout>
 
-                    <TextView
+                    <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="@string/control_room3"
-                            android:layout_gravity="center"/>
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_marginRight="40dp">
+
+                        <ImageView
+                                android:id="@+id/imgHabitacion5"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                android:src="@drawable/ic_kitchen"
+                                android:layerType="software"
+                                android:background="@drawable/circle_background_small"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/control_kitchen"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/poppins_medium"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:id="@+id/layoutAddMore"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:visibility="gone">
+                        <ImageView
+                                android:id="@+id/imgAddRoom"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                android:src="@drawable/ic_plus"
+                                android:layerType="software"
+                                android:background="@drawable/circle_background_small2"
+                        />
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/profile_more"
+                                android:layout_gravity="center"
+                                app:fontFamily="@font/poppins_medium"/>
+                    </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-            <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="50dp">
+        </androidx.core.widget.NestedScrollView>
 
-                <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_marginRight="40dp"
-                        android:gravity="center">
-
-                    <ImageView
-                            android:id="@+id/imgHabitacion4"
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            android:src="@drawable/ic_living_room"
-                            android:layerType="software"
-                            android:background="@drawable/circle_background_small"/>
-                    <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="@string/control_living"
-                            android:layout_gravity="center"/>
-                </LinearLayout>
-
-                <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:gravity="center">
-
-                    <ImageView
-                            android:id="@+id/imgHabitacion5"
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            android:src="@drawable/ic_kitchen"
-                            android:layerType="software"
-                            android:background="@drawable/circle_background_small"/>
-
-                    <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="@string/control_kitchen"
-                            android:layout_gravity="center"/>
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
 
     </RelativeLayout>
 

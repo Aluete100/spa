@@ -1,234 +1,245 @@
 -- Merging decision tree log ---
 manifest
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f65e870ba040b1e01313d450091980a9\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\bdf38984665cafccbe33c26d25bde462\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f5967d02b0476634b73c3cde5c981383\AndroidManifest.xml:2:1-11:12
-MERGED from [com.rbddevs.splashy:splashy:1.1.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\16695ec818ef97dfd428cc98f2270d1f\AndroidManifest.xml:2:1-15:12
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\c09fe63d7e075334b81e902dcd001dc5\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\94c48ed08576c6feaecd78332512a1b5\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\10f9e7adcc1a78480ed613c5853ea335\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\939bf3007d1243f01a658e775a39d2c9\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\cd2c2906933d9e4cf412e7c3b44f3650\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\c7dc1ea5c44d121e01c6926bff5a7e05\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\104c37deb4267199fd47f585abfe929a\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\15c622bca65a4b26a084fe1df129093d\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\2a035d4f4ede6061c186543549ff0e78\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\547a5a9eecebd5433dd056cb50e3e87c\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\8a038e9dcea0b53ec01610178adc7cf1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\ab650e687151b3a2f044f5c1dc4c3ec4\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\8f9d01c9fefab9ec6ef2f5d97ac0d479\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\bada15f3fc0fcab7c95026c2101e11ca\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\8756f3162baff6578a8be304e96ffbc0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\486e138bd6e329e0e71f60c7d996ea45\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\0933d00e13a47f004682975e37c01250\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\92574141cb73d84e5e4a5192cfeda612\AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\c7b7bb64c42dd2c8b4fbbc4a51ec8630\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\88ec9d24766d0947bd7c0f455fc3aa26\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f54a0ef5c66aa887f785624705ad8e66\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\7d153813fac751f34a255ee359e1c320\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\46d68f2f0064ceab3a23dec71f0845af\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\d17982556ab5f1526f503b47fa534c3a\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\025372c79b2ac5b7f7a54237280f8120\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\e82be53659df779e348fd4e210e37894\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\6626a0de8a5c079b9a230a3b47c86fdd\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\8952cd23a95413c8bbf9ee5dbbe100ee\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\003e03b0051845abc2299e38a7707993\AndroidManifest.xml:17:1-22:12
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:2:1-47:12
+MERGED from [com.github.arcadefire:nice-spinner:1.4.3] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/afd505f8852344fe8f7a1628f1e9f0cb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.nikartm:fit-button:1.2.1] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/d319bfd71a59d0fc73f0c73156f9cbfc/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/bff0934645ad0b2df8e7c6bed7e3ee4a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/2fc20d40d4996ec43d18c1d5a94bd996/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/ad2c768cad5b8750dd92d26e6b546498/AndroidManifest.xml:2:1-11:12
+MERGED from [com.rbddevs.splashy:splashy:1.1.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/16d82ac6689d9685f8b43f48ae50f93a/AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/396040800850b9f898c9793e95fff231/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/c454f45b88cab725dbf4fabeb18871b1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/2a462c8ce1b169cefa4380430a6422a4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/6c1fc857491cab34e4b505d4265c9ec1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/2697551cf6a83a1a2c0cd95945931b67/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/310b2b34d643f74afc13f5b692303a1e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/84bb83bfbb2eb4970221b240ae27829e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/46f66d269d102419bfed3c10c6905693/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/a3579048f833e7663426e723b3d48a68/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/12d7942d09cd22c7244c6cd488893c0e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/6839c80342f63967fe72429ff8832d8e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/e985d9ce568e6a031842ba1fb8665f4a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/e31ea24d50a5334d1d3834a7acc16a99/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/cfdd137622f62900a79021b39168cef1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/379fa4fd1cc6c0fef069fe8329127285/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/db6d4210653fdc9b5f4abee3fbf5e1d0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/0b00b859316d2a8fa3a5077f7f082553/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/7e65d9ad8a18228f4a70cee9865b0acf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/72a59410f50a37977357388f35ee37e6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/c0d648df5520f7431ac9287516d739d7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/0545a2b8813fbf1d11204a62015f8cc2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/333418a9da8f80645ae9a8ab20664692/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/2ff2171a038c258da5931cbc933c5cb6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/fc1ba49304677e93c786be8b91fad5b7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/53185aad0ad5ffedfafa32325b32db3a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/df8ec0dedb0aedcc32f0f44f772c288e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/c3c0ab8d9ef982ee16fc8b6256e299c4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/a4d020c771959ca05987f2af5eb4420e/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:2:1-47:12
 	package
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:3:11-64
-		INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
-		INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:3:11-64
+		INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
-		INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:2:1-47:12
+		INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:1-44:12
-		INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:2:1-47:12
+		INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:5:5-78
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:5:5-78
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:5:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:6:5-80
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:6:5-80
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:6:22-78
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:7:5-75
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:7:5-75
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:7:22-73
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:7:22-73
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:8:5-75
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:8:5-75
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:8:22-73
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:8:22-73
 uses-permission#android.permission.INTERNET
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:9:5-66
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:9:5-66
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:9:22-64
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:9:22-64
 application
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:11:5-42:19
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f65e870ba040b1e01313d450091980a9\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f65e870ba040b1e01313d450091980a9\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f5967d02b0476634b73c3cde5c981383\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f5967d02b0476634b73c3cde5c981383\AndroidManifest.xml:9:5-20
-MERGED from [com.rbddevs.splashy:splashy:1.1.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\16695ec818ef97dfd428cc98f2270d1f\AndroidManifest.xml:11:5-13:19
-MERGED from [com.rbddevs.splashy:splashy:1.1.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\16695ec818ef97dfd428cc98f2270d1f\AndroidManifest.xml:11:5-13:19
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\c09fe63d7e075334b81e902dcd001dc5\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\c09fe63d7e075334b81e902dcd001dc5\AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\0933d00e13a47f004682975e37c01250\AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\0933d00e13a47f004682975e37c01250\AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\92574141cb73d84e5e4a5192cfeda612\AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\92574141cb73d84e5e4a5192cfeda612\AndroidManifest.xml:22:5-23:19
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:11:5-45:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/bff0934645ad0b2df8e7c6bed7e3ee4a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/bff0934645ad0b2df8e7c6bed7e3ee4a/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/ad2c768cad5b8750dd92d26e6b546498/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/ad2c768cad5b8750dd92d26e6b546498/AndroidManifest.xml:9:5-20
+MERGED from [com.rbddevs.splashy:splashy:1.1.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/16d82ac6689d9685f8b43f48ae50f93a/AndroidManifest.xml:11:5-13:19
+MERGED from [com.rbddevs.splashy:splashy:1.1.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/16d82ac6689d9685f8b43f48ae50f93a/AndroidManifest.xml:11:5-13:19
+MERGED from [androidx.core:core:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/db6d4210653fdc9b5f4abee3fbf5e1d0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/db6d4210653fdc9b5f4abee3fbf5e1d0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/0b00b859316d2a8fa3a5077f7f082553/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/0b00b859316d2a8fa3a5077f7f082553/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\0933d00e13a47f004682975e37c01250\AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/db6d4210653fdc9b5f4abee3fbf5e1d0/AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:16:13-39
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:16:13-39
 	android:label
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:14:13-45
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:14:13-45
 	android:roundIcon
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:15:13-58
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:15:13-53
 	android:icon
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:13:13-47
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:13:13-42
 	android:allowBackup
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:12:13-39
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:12:13-39
 	android:theme
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:17:13-44
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:17:13-44
 	android:usesCleartextTraffic
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:18:13-48
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:18:13-48
 activity#com.alansito.simuladordepresenciaenausencia.modules.profile.ProfileSelectedActivity
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:19:9-20:20
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:19:9-20:20
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:19:19-74
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:19:19-74
 activity#com.alansito.simuladordepresenciaenausencia.modules.profile.ProfileSelectionActivity
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:21:9-22:20
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:21:9-22:20
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:21:19-75
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:21:19-75
 activity#com.alansito.simuladordepresenciaenausencia.modules.room.RoomRadioActivity
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:23:9-24:20
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:23:9-24:20
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:23:19-65
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:23:19-65
 activity#com.alansito.simuladordepresenciaenausencia.modules.room.RoomLightActivity
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:25:9-26:20
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:25:9-26:20
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:25:19-65
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:25:19-65
+activity#com.alansito.simuladordepresenciaenausencia.modules.room.RoomAddActivity
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:27:9-28:20
+	android:name
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:27:19-63
 activity#com.alansito.simuladordepresenciaenausencia.modules.room.RoomActivity
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:27:9-28:20
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:29:9-30:20
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:27:19-60
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:29:19-60
 activity#com.alansito.simuladordepresenciaenausencia.modules.wifi.WifiConnectActivity
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:29:9-32:20
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:31:9-34:20
 	android:label
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:31:17-68
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:33:17-68
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:30:17-65
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:32:17-65
 activity#com.alansito.simuladordepresenciaenausencia.modules.main.MainActivity
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:33:9-39:20
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:35:9-41:20
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:33:19-60
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:35:19-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:34:13-38:29
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:35:17-68
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:37:17-68
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:35:25-66
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:37:17-76
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:39:17-76
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:37:27-74
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:39:27-74
 activity#com.alansito.simuladordepresenciaenausencia.modules.room.RoomSelectionActivity
-ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:40:9-41:20
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:42:9-43:20
 	android:name
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml:40:19-69
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:42:19-69
+meta-data#preloaded_fonts
+ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:44:9-94
+	android:resource
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:44:51-92
+	android:name
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml:44:20-50
 uses-sdk
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f65e870ba040b1e01313d450091980a9\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f65e870ba040b1e01313d450091980a9\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\bdf38984665cafccbe33c26d25bde462\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\bdf38984665cafccbe33c26d25bde462\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f5967d02b0476634b73c3cde5c981383\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f5967d02b0476634b73c3cde5c981383\AndroidManifest.xml:5:5-7:41
-MERGED from [com.rbddevs.splashy:splashy:1.1.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\16695ec818ef97dfd428cc98f2270d1f\AndroidManifest.xml:7:5-9:41
-MERGED from [com.rbddevs.splashy:splashy:1.1.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\16695ec818ef97dfd428cc98f2270d1f\AndroidManifest.xml:7:5-9:41
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\c09fe63d7e075334b81e902dcd001dc5\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\c09fe63d7e075334b81e902dcd001dc5\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\94c48ed08576c6feaecd78332512a1b5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\94c48ed08576c6feaecd78332512a1b5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\10f9e7adcc1a78480ed613c5853ea335\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\10f9e7adcc1a78480ed613c5853ea335\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\939bf3007d1243f01a658e775a39d2c9\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\939bf3007d1243f01a658e775a39d2c9\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\cd2c2906933d9e4cf412e7c3b44f3650\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\cd2c2906933d9e4cf412e7c3b44f3650\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\c7dc1ea5c44d121e01c6926bff5a7e05\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\c7dc1ea5c44d121e01c6926bff5a7e05\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\104c37deb4267199fd47f585abfe929a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\104c37deb4267199fd47f585abfe929a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\15c622bca65a4b26a084fe1df129093d\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\15c622bca65a4b26a084fe1df129093d\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\2a035d4f4ede6061c186543549ff0e78\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\2a035d4f4ede6061c186543549ff0e78\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\547a5a9eecebd5433dd056cb50e3e87c\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\547a5a9eecebd5433dd056cb50e3e87c\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\8a038e9dcea0b53ec01610178adc7cf1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\8a038e9dcea0b53ec01610178adc7cf1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\ab650e687151b3a2f044f5c1dc4c3ec4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\ab650e687151b3a2f044f5c1dc4c3ec4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\8f9d01c9fefab9ec6ef2f5d97ac0d479\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\8f9d01c9fefab9ec6ef2f5d97ac0d479\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\bada15f3fc0fcab7c95026c2101e11ca\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\bada15f3fc0fcab7c95026c2101e11ca\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\8756f3162baff6578a8be304e96ffbc0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\8756f3162baff6578a8be304e96ffbc0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\486e138bd6e329e0e71f60c7d996ea45\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\486e138bd6e329e0e71f60c7d996ea45\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\0933d00e13a47f004682975e37c01250\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\0933d00e13a47f004682975e37c01250\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\92574141cb73d84e5e4a5192cfeda612\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\92574141cb73d84e5e4a5192cfeda612\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\c7b7bb64c42dd2c8b4fbbc4a51ec8630\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\c7b7bb64c42dd2c8b4fbbc4a51ec8630\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\88ec9d24766d0947bd7c0f455fc3aa26\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\88ec9d24766d0947bd7c0f455fc3aa26\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f54a0ef5c66aa887f785624705ad8e66\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\f54a0ef5c66aa887f785624705ad8e66\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\7d153813fac751f34a255ee359e1c320\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\7d153813fac751f34a255ee359e1c320\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\46d68f2f0064ceab3a23dec71f0845af\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\46d68f2f0064ceab3a23dec71f0845af\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\d17982556ab5f1526f503b47fa534c3a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\d17982556ab5f1526f503b47fa534c3a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\025372c79b2ac5b7f7a54237280f8120\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\025372c79b2ac5b7f7a54237280f8120\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\e82be53659df779e348fd4e210e37894\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\e82be53659df779e348fd4e210e37894\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\6626a0de8a5c079b9a230a3b47c86fdd\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\6626a0de8a5c079b9a230a3b47c86fdd\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\8952cd23a95413c8bbf9ee5dbbe100ee\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\8952cd23a95413c8bbf9ee5dbbe100ee\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\003e03b0051845abc2299e38a7707993\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\003e03b0051845abc2299e38a7707993\AndroidManifest.xml:20:5-44
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
-INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
+INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml
+INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml
+MERGED from [com.github.arcadefire:nice-spinner:1.4.3] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/afd505f8852344fe8f7a1628f1e9f0cb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.arcadefire:nice-spinner:1.4.3] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/afd505f8852344fe8f7a1628f1e9f0cb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.nikartm:fit-button:1.2.1] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/d319bfd71a59d0fc73f0c73156f9cbfc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.nikartm:fit-button:1.2.1] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/d319bfd71a59d0fc73f0c73156f9cbfc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/bff0934645ad0b2df8e7c6bed7e3ee4a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/bff0934645ad0b2df8e7c6bed7e3ee4a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/2fc20d40d4996ec43d18c1d5a94bd996/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/2fc20d40d4996ec43d18c1d5a94bd996/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/ad2c768cad5b8750dd92d26e6b546498/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/ad2c768cad5b8750dd92d26e6b546498/AndroidManifest.xml:5:5-7:41
+MERGED from [com.rbddevs.splashy:splashy:1.1.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/16d82ac6689d9685f8b43f48ae50f93a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.rbddevs.splashy:splashy:1.1.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/16d82ac6689d9685f8b43f48ae50f93a/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/396040800850b9f898c9793e95fff231/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/396040800850b9f898c9793e95fff231/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/c454f45b88cab725dbf4fabeb18871b1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/c454f45b88cab725dbf4fabeb18871b1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/2a462c8ce1b169cefa4380430a6422a4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/2a462c8ce1b169cefa4380430a6422a4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/6c1fc857491cab34e4b505d4265c9ec1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/6c1fc857491cab34e4b505d4265c9ec1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/2697551cf6a83a1a2c0cd95945931b67/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/2697551cf6a83a1a2c0cd95945931b67/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/310b2b34d643f74afc13f5b692303a1e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/310b2b34d643f74afc13f5b692303a1e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/84bb83bfbb2eb4970221b240ae27829e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/84bb83bfbb2eb4970221b240ae27829e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/46f66d269d102419bfed3c10c6905693/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/46f66d269d102419bfed3c10c6905693/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/a3579048f833e7663426e723b3d48a68/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/a3579048f833e7663426e723b3d48a68/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/12d7942d09cd22c7244c6cd488893c0e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/12d7942d09cd22c7244c6cd488893c0e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/6839c80342f63967fe72429ff8832d8e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/6839c80342f63967fe72429ff8832d8e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/e985d9ce568e6a031842ba1fb8665f4a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/e985d9ce568e6a031842ba1fb8665f4a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/e31ea24d50a5334d1d3834a7acc16a99/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/e31ea24d50a5334d1d3834a7acc16a99/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/cfdd137622f62900a79021b39168cef1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/cfdd137622f62900a79021b39168cef1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/379fa4fd1cc6c0fef069fe8329127285/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/379fa4fd1cc6c0fef069fe8329127285/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/db6d4210653fdc9b5f4abee3fbf5e1d0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/db6d4210653fdc9b5f4abee3fbf5e1d0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/0b00b859316d2a8fa3a5077f7f082553/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/0b00b859316d2a8fa3a5077f7f082553/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/7e65d9ad8a18228f4a70cee9865b0acf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/7e65d9ad8a18228f4a70cee9865b0acf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/72a59410f50a37977357388f35ee37e6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/72a59410f50a37977357388f35ee37e6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/c0d648df5520f7431ac9287516d739d7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/c0d648df5520f7431ac9287516d739d7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/0545a2b8813fbf1d11204a62015f8cc2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/0545a2b8813fbf1d11204a62015f8cc2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/333418a9da8f80645ae9a8ab20664692/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/333418a9da8f80645ae9a8ab20664692/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/2ff2171a038c258da5931cbc933c5cb6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/2ff2171a038c258da5931cbc933c5cb6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/fc1ba49304677e93c786be8b91fad5b7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/fc1ba49304677e93c786be8b91fad5b7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/53185aad0ad5ffedfafa32325b32db3a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/53185aad0ad5ffedfafa32325b32db3a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/df8ec0dedb0aedcc32f0f44f772c288e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/df8ec0dedb0aedcc32f0f44f772c288e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/c3c0ab8d9ef982ee16fc8b6256e299c4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/c3c0ab8d9ef982ee16fc8b6256e299c4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/a4d020c771959ca05987f2af5eb4420e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/a4d020c771959ca05987f2af5eb4420e/AndroidManifest.xml:20:5-44
+INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml
+INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
-		INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
-		ADDED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
-		INJECTED from A:\ORT\Terciario\Creatividad\Android\spa\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alanantar/Documents/Dev/Nano/Android/Other/SimuladordePresenciaenAusencia/app/src/main/AndroidManifest.xml
 activity#com.rbddevs.splashy.SplashyActivity
-ADDED from [com.rbddevs.splashy:splashy:1.1.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\16695ec818ef97dfd428cc98f2270d1f\AndroidManifest.xml:12:9-72
+ADDED from [com.rbddevs.splashy:splashy:1.1.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/16d82ac6689d9685f8b43f48ae50f93a/AndroidManifest.xml:12:9-72
 	android:name
-		ADDED from [com.rbddevs.splashy:splashy:1.1.0] C:\Users\usuario\.gradle\caches\transforms-2\files-2.1\16695ec818ef97dfd428cc98f2270d1f\AndroidManifest.xml:12:19-69
+		ADDED from [com.rbddevs.splashy:splashy:1.1.0] /Users/alanantar/.gradle/caches/transforms-2/files-2.1/16d82ac6689d9685f8b43f48ae50f93a/AndroidManifest.xml:12:19-69

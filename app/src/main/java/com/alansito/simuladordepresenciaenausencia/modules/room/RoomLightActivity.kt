@@ -9,8 +9,8 @@ import kotlinx.android.synthetic.main.activity_room_light.*
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import android.util.Log
-import com.alansito.simuladordepresenciaenausencia.modules.utils.Common.Companion.BASE_URL
-import com.alansito.simuladordepresenciaenausencia.modules.utils.service.SPAEndpoints
+import com.alansito.simuladordepresenciaenausencia.utils.Common.Companion.BASE_URL
+import com.alansito.simuladordepresenciaenausencia.utils.service.SPAEndpoints
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

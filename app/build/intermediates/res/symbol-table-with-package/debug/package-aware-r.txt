@@ -30,6 +30,10 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -71,8 +75,10 @@ attr alertDialogTheme
 attr allowStacking
 attr alpha
 attr alphabeticModifiers
+attr arrowDrawable
 attr arrowHeadLength
 attr arrowShaftLength
+attr arrowTint
 attr autoCompleteTextViewStyle
 attr autoSizeMaxTextSize
 attr autoSizeMinTextSize
@@ -80,6 +86,7 @@ attr autoSizePresetSizes
 attr autoSizeStepGranularity
 attr autoSizeTextType
 attr background
+attr backgroundSelector
 attr backgroundSplit
 attr backgroundStacked
 attr backgroundTint
@@ -152,10 +159,6 @@ attr chipStartPadding
 attr chipStrokeColor
 attr chipStrokeWidth
 attr chipStyle
-attr civ_border_color
-attr civ_border_overlay
-attr civ_border_width
-attr civ_circle_background_color
 attr closeIcon
 attr closeIconEnabled
 attr closeIconEndPadding
@@ -216,6 +219,7 @@ attr dividerPadding
 attr dividerVertical
 attr drawableSize
 attr drawerArrowStyle
+attr dropDownListPaddingBottom
 attr dropDownListViewStyle
 attr dropdownListPreferredItemHeight
 attr editTextBackground
@@ -225,6 +229,7 @@ attr elevation
 attr emptyVisibility
 attr enforceMaterialTheme
 attr enforceTextAppearance
+attr entries
 attr errorEnabled
 attr errorTextAppearance
 attr expandActivityOverflowButtonDrawable
@@ -247,6 +252,45 @@ attr fastScrollHorizontalThumbDrawable
 attr fastScrollHorizontalTrackDrawable
 attr fastScrollVerticalThumbDrawable
 attr fastScrollVerticalTrackDrawable
+attr fb_backgroundColor
+attr fb_borderColor
+attr fb_borderWidth
+attr fb_cornerRadius
+attr fb_disableColor
+attr fb_disableElementsColor
+attr fb_divColor
+attr fb_divHeight
+attr fb_divMarginBottom
+attr fb_divMarginEnd
+attr fb_divMarginStart
+attr fb_divMarginTop
+attr fb_divVisibility
+attr fb_divWidth
+attr fb_enableRipple
+attr fb_fontFamilyRes
+attr fb_icon
+attr fb_iconColor
+attr fb_iconHeight
+attr fb_iconMarginBottom
+attr fb_iconMarginEnd
+attr fb_iconMarginStart
+attr fb_iconMarginTop
+attr fb_iconPosition
+attr fb_iconVisibility
+attr fb_iconWidth
+attr fb_rippleColor
+attr fb_shadow
+attr fb_shape
+attr fb_text
+attr fb_textAllCaps
+attr fb_textColor
+attr fb_textPaddingBottom
+attr fb_textPaddingEnd
+attr fb_textPaddingStart
+attr fb_textPaddingTop
+attr fb_textSize
+attr fb_textStyle
+attr fb_textVisibility
 attr firstBaselineToTopHeight
 attr floatingActionButtonStyle
 attr font
@@ -268,6 +312,7 @@ attr height
 attr helperText
 attr helperTextEnabled
 attr helperTextTextAppearance
+attr hideArrow
 attr hideMotionSpec
 attr hideOnContentScroll
 attr hideOnScroll
@@ -411,6 +456,7 @@ attr passwordToggleEnabled
 attr passwordToggleTint
 attr passwordToggleTintMode
 attr popupMenuStyle
+attr popupTextAlignment
 attr popupTheme
 attr popupWindowStyle
 attr preserveIconSpacing
@@ -524,6 +570,7 @@ attr textColorSearchUrl
 attr textEndPadding
 attr textInputStyle
 attr textStartPadding
+attr textTint
 attr theme
 attr thickness
 attr thumbTextPadding
@@ -645,6 +692,7 @@ color foreground_material_light
 color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_gray
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -705,6 +753,8 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color textview_back
+color textview_line
 color tooltip_background_dark
 color tooltip_background_light
 color two
@@ -918,6 +968,8 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen one_and_a_half_grid_unit
+dimen three_grid_unit
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1010,6 +1062,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable arrow
 drawable avd_hide_password
 drawable avd_show_password
 drawable cards_border
@@ -1022,9 +1075,13 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable drop_down_shadow
+drawable ic_app_foreground
+drawable ic_arrow_drop_down_black_24dp
 drawable ic_bathtub
 drawable ic_bed
 drawable ic_edit
+drawable ic_house
 drawable ic_idea
 drawable ic_kitchen
 drawable ic_launcher_background
@@ -1038,7 +1095,10 @@ drawable ic_placeholder
 drawable ic_plus
 drawable ic_power
 drawable ic_radio
+drawable ic_save
+drawable ic_thumb_up
 drawable ic_user
+drawable ic_user_2
 drawable ic_wifi
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
@@ -1055,11 +1115,15 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable rounded_textfield
+drawable selector
+drawable spinner_drawable
 drawable splash
 drawable splashy
 drawable toolbar_grey_color
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font poppins_medium
 id ALT
 id CTRL
 id FUNCTION
@@ -1094,7 +1158,9 @@ id auto
 id barrier
 id beginning
 id blocking
+id bold
 id bottom
+id btnSave
 id buttonPanel
 id center
 id center_horizontal
@@ -1102,6 +1168,7 @@ id center_vertical
 id chains
 id checkbox
 id chronometer
+id circle
 id clip_horizontal
 id clip_vertical
 id collapseActionView
@@ -1145,12 +1212,14 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imgAddRoom
 id imgHabitacion1
 id imgHabitacion2
 id imgHabitacion3
 id imgHabitacion4
 id imgHabitacion5
 id imgHabitaciones
+id imgHouse
 id imgLamp1
 id imgOn
 id imgPerfiles
@@ -1168,6 +1237,10 @@ id ivBackground
 id ivLogo
 id labeled
 id largeLabel
+id layLight1
+id layLight2
+id layLight3
+id layoutAddMore
 id left
 id line1
 id line3
@@ -1190,6 +1263,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id outline
+id oval
 id packed
 id parallax
 id parent
@@ -1202,6 +1276,7 @@ id progressBar
 id progress_circular
 id progress_horizontal
 id radio
+id rectangle
 id right
 id right_icon
 id right_side
@@ -1237,9 +1312,12 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id spinnerType
+id spinnerTypeDevice
 id split_action_bar
 id spread
 id spread_inside
+id square
 id src_atop
 id src_in
 id src_over
@@ -1258,6 +1336,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id text_input_password_toggle
+id text_view_spinner
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -1276,7 +1355,9 @@ id transition_transform
 id tvSubTitle
 id tvTitle
 id txtControl
+id txtHouse
 id txtLightState
+id txtNameRoom
 id txtProfileState
 id txtWifiName
 id uniform
@@ -1339,6 +1420,7 @@ layout abc_tooltip
 layout activity_profile_selected
 layout activity_profile_selection
 layout activity_room
+layout activity_room_add
 layout activity_room_light
 layout activity_room_radio
 layout activity_splashy
@@ -1370,11 +1452,14 @@ layout room_selection
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout spinner_list_item
 layout support_simple_spinner_dropdown_item
 layout toolbar
-layout wifi_view
+layout wifi_list_item
 menu edit_menu
 menu house_menu
+mipmap ic_app
+mipmap ic_app_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap splash
@@ -1423,12 +1508,18 @@ string background
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
+string control_house
 string control_kitchen
 string control_living
 string control_room
 string control_room1
 string control_room2
 string control_room3
+string control_room_add
+string control_room_add_lamp1
+string control_room_add_lamp2
+string control_room_add_lamp3
+string control_room_add_save
 string control_text
 string control_toolbartext
 string control_toolbartext2
@@ -1840,6 +1931,7 @@ style ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox
 style ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense
 style ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox
 style ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense
+style ToolBarTheme
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar
@@ -1986,7 +2078,6 @@ styleable ButtonBarLayout allowStacking
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Chip android_textAppearance android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipStartPadding chipStrokeColor chipStrokeWidth closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible hideMotionSpec iconEndPadding iconStartPadding rippleColor showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical singleLine singleSelection
-styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha
@@ -1998,6 +2089,7 @@ styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
 styleable DesignTheme bottomSheetDialogTheme bottomSheetStyle
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
+styleable FitButton android_enabled fb_backgroundColor fb_borderColor fb_borderWidth fb_cornerRadius fb_disableColor fb_disableElementsColor fb_divColor fb_divHeight fb_divMarginBottom fb_divMarginEnd fb_divMarginStart fb_divMarginTop fb_divVisibility fb_divWidth fb_enableRipple fb_fontFamilyRes fb_icon fb_iconColor fb_iconHeight fb_iconMarginBottom fb_iconMarginEnd fb_iconMarginStart fb_iconMarginTop fb_iconPosition fb_iconVisibility fb_iconWidth fb_rippleColor fb_shadow fb_shape fb_text fb_textAllCaps fb_textColor fb_textPaddingBottom fb_textPaddingEnd fb_textPaddingStart fb_textPaddingTop fb_textSize fb_textStyle fb_textVisibility
 styleable FloatingActionButton backgroundTint backgroundTintMode borderWidth elevation fabCustomSize fabSize hideMotionSpec hoveredFocusedTranslationZ maxImageSize pressedTranslationZ rippleColor showMotionSpec useCompatPadding
 styleable FloatingActionButton_Behavior_Layout behavior_autoHide
 styleable FlowLayout itemSpacing lineSpacing
@@ -2017,6 +2109,7 @@ styleable MenuGroup android_enabled android_id android_visible android_menuCateg
 styleable MenuItem android_icon android_enabled android_id android_checked android_visible android_menuCategory android_orderInCategory android_title android_titleCondensed android_alphabeticShortcut android_numericShortcut android_checkable android_onClick actionLayout actionProviderClass actionViewClass alphabeticModifiers contentDescription iconTint iconTintMode numericModifiers showAsAction tooltipText
 styleable MenuView android_windowAnimationStyle android_itemTextAppearance android_horizontalDivider android_verticalDivider android_headerBackground android_itemBackground android_itemIconDisabledAlpha preserveIconSpacing subMenuArrow
 styleable NavigationView android_background android_fitsSystemWindows android_maxWidth elevation headerLayout itemBackground itemHorizontalPadding itemIconPadding itemIconTint itemTextAppearance itemTextColor menu
+styleable NiceSpinner arrowDrawable arrowTint backgroundSelector dropDownListPaddingBottom entries hideArrow popupTextAlignment textTint
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle

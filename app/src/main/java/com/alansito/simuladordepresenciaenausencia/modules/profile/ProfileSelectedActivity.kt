@@ -1,6 +1,5 @@
 package com.alansito.simuladordepresenciaenausencia.modules.profile
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -9,12 +8,10 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 import com.alansito.simuladordepresenciaenausencia.R
-import com.alansito.simuladordepresenciaenausencia.modules.utils.Common
-import com.alansito.simuladordepresenciaenausencia.modules.utils.service.SPAEndpoints
+import com.alansito.simuladordepresenciaenausencia.utils.Common
+import com.alansito.simuladordepresenciaenausencia.utils.service.SPAEndpoints
 import kotlinx.android.synthetic.main.activity_profile_selected.*
-import kotlinx.android.synthetic.main.activity_profile_selection.*
 import kotlinx.android.synthetic.main.activity_room.myToolbar
-import kotlinx.android.synthetic.main.activity_room_light.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -35,17 +32,9 @@ class ProfileSelectedActivity : AppCompatActivity() {
         setupButtons()
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.edit_menu, menu)
-        return true
-    }
-
-
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
 
         when (item?.itemId) {
-            R.id.room_edit_menu -> {
-                Toast.makeText(this, "Editar habitacion", Toast.LENGTH_SHORT).show()}
             android.R.id.home -> {
                 this.finish()
             }

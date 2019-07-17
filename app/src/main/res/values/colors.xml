@@ -7,4 +7,7 @@
     <color name="yellow">#FF0</color>
 
     <color name="colorToolbar">#b00d23</color>
+
+    <color name="textview_back">#FCFCFD</color>
+    <color name="textview_line">#EAEAEF</color>
 </resources>

@@ -17,7 +17,7 @@
             android:layout_height="120dp"
             android:layout_centerInParent="true"
             android:layout_marginTop="50dp"
-            android:src="@drawable/ic_user"
+            android:src="@drawable/ic_user_2"
             android:layerType="software"
             android:background="@drawable/circle_background_small2"
     />
@@ -51,8 +51,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/profile_on"
+                    android:textColor="@color/black"
                     android:layout_gravity="center"
-                    android:textSize="40sp"/>
+                    android:textSize="40sp"
+                    app:fontFamily="@font/poppins_medium"/>
 
         </LinearLayout>
 

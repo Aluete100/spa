@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Simulador de Presencia en Ausencia</string>
+    <string name="app_name">SPA</string>
     <string name="title_activity_wifi_connect">WifiConnectActivity</string>
 
     <string name="wifiConnectHello">¡¡Hola!!</string>
@@ -7,16 +7,22 @@
     <string name="wifiConnectIntruc2">Conectate a tu wifi y estamos listos</string>
 
     <string name="control_text">Seleccione lo que desea controlar</string>
-    <string name="control_room">Habitaciones</string>
+    <string name="control_room">Habitaciónes</string>
 
     <string name="control_toolbartext">Controlar</string>
-    <string name="control_toolbartext2">Zonas de la casa</string>
+    <string name="control_toolbartext2">Mi casa</string>
 
-    <string name="control_room1">Habitacion 1</string>
-    <string name="control_room2">Habitacion 2</string>
-    <string name="control_room3">Habitacion 3</string>
+    <string name="control_house">Mi casa</string>
+    <string name="control_room1">Habitación 1</string>
+    <string name="control_room2">Habitación 2</string>
+    <string name="control_room3">Habitación 3</string>
     <string name="control_living">Living</string>
     <string name="control_kitchen">Cocina</string>
+    <string name="control_room_add">Nueva habitación</string>
+    <string name="control_room_add_save">Guardar</string>
+    <string name="control_room_add_lamp1">Lampara 24mts</string>
+    <string name="control_room_add_lamp2">Lampara 5mts</string>
+    <string name="control_room_add_lamp3">Lampara 1mts</string>
 
     <string name="room_light1">Velador</string>
     <string name="room_light2">Luz general</string>
