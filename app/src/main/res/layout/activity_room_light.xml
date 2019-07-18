@@ -70,6 +70,7 @@
                     android:textColor="@color/black"
                     app:fontFamily="@font/poppins_medium"/>
 
+
         </LinearLayout>
 
     </RelativeLayout>

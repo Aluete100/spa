@@ -1069,6 +1069,7 @@ drawable cards_border
 drawable circle_background
 drawable circle_background_small
 drawable circle_background_small2
+drawable circle_background_yellow
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1358,7 +1359,6 @@ id txtControl
 id txtHouse
 id txtLightState
 id txtNameRoom
-id txtProfileState
 id txtWifiName
 id uniform
 id unlabeled
@@ -1536,11 +1536,14 @@ string path_password_strike_through
 string profile
 string profile1
 string profile2
+string profile_devices
 string profile_more
 string profile_on
+string profile_time
 string profile_toolbar
 string retry
 string room_bath
+string room_light
 string room_light1
 string room_light2
 string room_off

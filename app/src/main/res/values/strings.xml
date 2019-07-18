@@ -24,6 +24,7 @@
     <string name="control_room_add_lamp2">Lampara 5mts</string>
     <string name="control_room_add_lamp3">Lampara 1mts</string>
 
+    <string name="room_light">Luz</string>
     <string name="room_light1">Velador</string>
     <string name="room_light2">Luz general</string>
     <string name="room_bath">Luz baño</string>
@@ -39,6 +40,8 @@
     <string name="profile_more">Agregar perfil</string>
     <string name="profile_toolbar">Fin de semana</string>
     <string name="profile_on">Activar perfil</string>
+    <string name="profile_devices">Dispositivos configurados</string>
+    <string name="profile_time">Cada 10s</string>
 
 
 </resources>

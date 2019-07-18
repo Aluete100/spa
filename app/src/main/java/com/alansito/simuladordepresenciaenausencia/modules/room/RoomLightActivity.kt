@@ -11,6 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import android.util.Log
 import com.alansito.simuladordepresenciaenausencia.utils.Common.Companion.BASE_URL
 import com.alansito.simuladordepresenciaenausencia.utils.service.SPAEndpoints
+import kotlinx.android.synthetic.main.activity_room_light.myToolbar
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -58,8 +59,10 @@ class RoomLightActivity : AppCompatActivity() {
                 if (response.code() == 200){
                     if  (response.body() == "1"){
                         txtLightState.text = getString(R.string.room_off)
+                        imgOn.background = getDrawable(R.drawable.circle_background_yellow)
                     }else{
                         txtLightState.text = getString(R.string.room_on)
+                        imgOn.background = getDrawable(R.drawable.circle_background)
                     }
                 }
             }

@@ -7,6 +7,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
+import androidx.core.content.ContextCompat
 import com.alansito.simuladordepresenciaenausencia.R
 import com.alansito.simuladordepresenciaenausencia.utils.Common
 import com.alansito.simuladordepresenciaenausencia.utils.service.SPAEndpoints
@@ -44,7 +45,7 @@ class ProfileSelectedActivity : AppCompatActivity() {
     }
 
     private fun setupButtons() {
-        imgProfileBig.setOnClickListener {
+        imgTurn.setOnClickListener {
             turnProfile()
         }
     }
@@ -58,19 +59,22 @@ class ProfileSelectedActivity : AppCompatActivity() {
         val service = retrofit.create(SPAEndpoints::class.java)
         val turnProfile = service.turnProfile()
 
+
+
         turnProfile.enqueue(object: Callback<String> {
             override fun onResponse(call: Call<String>, response: Response<String>) {
                 if (response.code() == 200){
                     if  (response.body() == "1"){
-                        txtProfileState.text = getString(R.string.room_off)
+                        imgTurn.background = getDrawable(R.drawable.circle_background_yellow)
                     }else{
-                        txtProfileState.text = getString(R.string.room_on)
+                        imgTurn.background = getDrawable(R.drawable.circle_background)
                     }
                 }
             }
 
             override fun onFailure(call: Call<String>, t: Throwable) {
                 Log.d("Retrofit", "Error -> $t")
+
             }
         })
     }
